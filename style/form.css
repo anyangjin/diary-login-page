@@ -1,20 +1,17 @@
 body {
   background: #fffaf0;
 }
-
 /* .login {
   width: 392px;
-  margin: auto; */
-/* 마진오토로 가로정렬에 사용 */
-/* } */
-
+  margin: auto;
+  마진 오토를 사용해서 가로정렬
+} */
 .login label,
 .login input,
 .login button {
   display: block;
   width: 100%;
   box-sizing: border-box;
-  /* 넘치지않게 */
 }
 
 .login input {
@@ -30,8 +27,8 @@ body {
 }
 
 .login input:hover {
-  /* border-color: #2e6ff2; */
-  /* border-bottom-width: 2px; */
+  /* border-color: #2e6ff2;
+  border-bottom-width: 2px; */
   box-shadow: 0 2px 0 0 #2e6ff2;
 }
 .login input:focus {
@@ -56,7 +53,6 @@ body {
   font-size: 16px;
   cursor: pointer;
 }
-
 .login button:disabled {
   background-color: #9fa9ae;
 }
